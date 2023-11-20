@@ -10,9 +10,9 @@ def main():
     concatenate.concatenate()
 
     shutil.rmtree(
-        path=r"C:\Users\onder.tanrikulu\OneDrive - NMQ Digital\Automated Exports\zoetis\Datasets\py-ga-zoetisus-dataset-for-shop-hybris\_exports")
+        path=r"C:\Users\melik.masarifoglu\Documents\hybris")
     shutil.copytree(src=r"C:\Users\melik.masarifoglu\PycharmProjects\py-ga-zoetisus-dataset-for-shop-hybris\_exports",
-                    dst=r"C:\Users\onder.tanrikulu\OneDrive - NMQ Digital\Automated Exports\zoetis\Datasets\py-ga-zoetisus-dataset-for-shop-hybris\_exports",
+                    dst=r"C:\Users\melik.masarifoglu\Documents\hybris",
                     dirs_exist_ok=True)
 
     return
